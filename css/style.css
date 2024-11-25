@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+}
+
+header {
+    background-color: rgb(221, 221, 221);
+    padding: 12px;
+}
+
+nav {
+    display: inline-block;
+    width: 80%;
+    background-color: rgb(2, 202, 198);
+    padding: 12px;
+    margin-bottom: 24px;
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    border: solid 1px;
+    padding: 5px;
+}
+
+header img {
+    width: 10%;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+.current {
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    min-height: 100px;
+    background-color: rgb(198, 198, 198);
+    padding: 12px;
+}
+
+.neighborhood {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    row-gap: 12px;
+}
+
+.neighborhood img {
+    width: 100%;
+}
+
+.parks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.parks img {
+     height: 25%;
+}
+
+/* li {
+    display: inline-block;
+    width: 180px;
+    padding-left: 10px;
+} */
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 52px;
+    text-align: center;
+    background-color: rgb(221, 221, 221);
+    color:rgb(0, 42, 82);
+}
+
+p {
+    line-height: 36px;
+    padding: 12px;
+}
+
+footer {
+    background-color: rgb(2, 202, 198);
+    padding: 12px;
+}
