@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.skipContent {
+    display: inline-block;
+    position: relative;
+    padding-top: 24px;
+    padding-left: 100px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    padding-left: 12px;
+}
+
+.skipContent a:focus {
+    color: rgb(221, 221, 221);
+}
+
+header {
+    /* position: relative; */
+    background-color: rgb(35, 0, 47);
+}
+
+.navMenu {
+    display: block;
+    position: sticky;
+    top: 0;
+    margin-top: 12px;
+    background-color: rgb(94, 42, 238);
+    padding: 12px;
+}
+nav a {
+    text-decoration: none;
+    color:  rgb(221, 221, 221);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+.current {
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.headerCoverImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-image: url("../images/wd4e-css-final-cover-image-002.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+}
+
+.homeMain {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.secondCoverImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-image: url("../images/wd4e-css-final-cover-image-001.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+}
+
+.thirdCoverImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-image: url("../images/wd4e-css-final-cover-image-003.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: bottom ;
+    background-repeat: no-repeat;
+}
+
+main {
+    background-color: rgb(198, 198, 198);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+main p {
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.secondpage {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    justify-items: center;
+    row-gap: 20px;
+}
+
+.secondpage img {
+    width: 80%;
+    padding: 6px;
+    border: solid 4px; color: #FFFFFF;
+    border-radius: 12px;
+}
+
+.secondpage img:hover {
+    border: solid 4px; color: #000000;
+    transform: scale(1.1, 1.1);
+}
+
+.galleryText {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.thirdpage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 0 4px;
+}
+
+.thirdpage img {
+    width: 25%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 16px;
+    padding: 5px;
+    border: solid 4px; color: rgb(255, 255, 255);
+    border-radius: 6px;
+}
+
+.thirdpage img:nth-child(3n+1) {
+    border: solid 4px; color: rgb(255, 255, 255);
+}
+
+.thirdpage img:nth-child(3n+2) {
+    border: solid 4px; color: rgb(125, 125, 125);
+}
+
+.thirdpage img:nth-child(3n+3) {
+    border: solid 4px; color: rgb(0, 0, 0);
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+footer {
+    background-color:rgb(94, 42, 238);
+    color:  rgb(221, 221, 221);
+    padding-left: 100px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.footerLink {
+    color:rgb(255, 255, 255)
+}
